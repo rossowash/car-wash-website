@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автомойка | Чистый Авто</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .service {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: yellow;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>Чистый Авто - Профессиональная Автомойка</header>
+    <div class="container">
+        <h2>Наши услуги</h2>
+        <div class="service">Экспресс-мойка - 500 ₽</div>
+        <div class="service">Комплексная мойка - 1200 ₽</div>
+        <div class="service">Химчистка салона - 3000 ₽</div>
+        <div class="service">Полировка кузова - 5000 ₽</div>
+    </div>
+    <div class="contact">
+        <h3>Контакты</h3>
+        <p>📍 Адрес: ул. Примерная, 12, г. Москва</p>
+        <p>📞 Телефон: <a href="tel:+79998887766">+7 (999) 888-77-66</a></p>
+        <p>📩 WhatsApp: <a href="https://wa.me/79998887766">Написать</a></p>
+    </div>
+</body>
+</html>
